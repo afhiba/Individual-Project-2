@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4x4 Puzzle Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>To play, simply click on the "cell" blocks in the table to arrange the scrambled numbers in sequential order.</h2>
+  <p>Achieve the best play against your rivals with as much less moves as possible, in the shortest period of time!</p>
+  
+  <div id="game-info">
+    <div id="moves">Number of Moves thus far: 0</div>
+    <div id="time">Time spent in the current game: 0 seconds.</div>
+  </div>
+  
+  <div id="controls">
+    <button onclick="simpleGame()">Simple Game!</button>
+    <button onclick="newGame()">New Game</button>
+  </div>
+
+  <table id="puzzle-board">
+    
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
